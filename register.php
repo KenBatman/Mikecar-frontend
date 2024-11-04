@@ -1,7 +1,6 @@
 <?php
 include 'db_connect.php'; // Kết nối tới cơ sở dữ liệu
 
-// Xử lý đăng ký
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $fullname = $_POST['fullname'];
     $email = $_POST['email'];
