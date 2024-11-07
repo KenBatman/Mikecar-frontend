@@ -18,7 +18,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             $_SESSION['logged_in'] = true;
 
             // Chuyển hướng sau khi đăng nhập thành công
-            header("Location: /Mikecar-frontend/pages/test.php");
+            header("Location: /Mikecar-frontend-main/pages/test.php");
             exit();
         } else {
             echo "Sai mật khẩu.";
